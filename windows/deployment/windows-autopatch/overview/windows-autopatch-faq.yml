@@ -81,7 +81,7 @@ sections:
           - Windows 10/11 quality updates: Windows Autopatch manages all aspects of update rings.
           - Windows 10/11 feature updates: Windows Autopatch manages all aspects of update rings.
           - Microsoft 365 Apps for enterprise updates: All devices registered for Windows Autopatch will receive updates from the Monthly Enterprise Channel.
-          - Microsoft Edge: Windows Autopatch configures eligible devices to benefit from Microsoft Edge's progressive rollouts on the Stable channel and will provide support for issues with Microsoft Edge updates.
+          - Microsoft Edge: Windows Autopatch configures eligible devices to benefit from Microsoft Edge's progressive rollouts on the Stable channel (and the Beta channel for devices in the TEST ring) and will provide support for issues with Microsoft Edge updates. Note: Autopatch does NOT support the extended Stable channel option, and will update every 4 weeks as per the regular Stable channel update cycle.
           - Microsoft Teams: Windows Autopatch allows eligible devices to benefit from the standard automatic update channels and will provide support for issues with Teams updates.
       - question: What does Windows Autopatch do to ensure updates are done successfully?
         answer: |
